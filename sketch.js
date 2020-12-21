@@ -17,11 +17,11 @@ car.velocityX=0;
 var deformation=0.5*weight*speed*speed/22509;
 
 if(deformation>180){
-  car.shapeColor="yellow";
+  car.shapeColor="red";
 }
 
 if(deformation>180 && deformation>100){
-  car.shapeColor="red";
+  car.shapeColor="yellow";
 }
 
 if(deformation<100){
